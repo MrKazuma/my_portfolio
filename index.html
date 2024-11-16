@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="./assets/IMG_20211225_123725_755.jpg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">SK.Touhid Kabir</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='//'">
+      View Resume
+    </button>
+  </header>
+
+  <!-- Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <!-- <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div> -->
+  <!-- -->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hey 👋</span>
+          <span class="heading-primary__main">
+            I'm SK.Touhid Kabir ! A Web Developer Building Awesome Webapps and Websites that Powers the Internet.
+          </span>
+        </h1>
+        <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='./index.html#projects'">
+          Projects
+        </button>
+        <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='./index.html#contact'">
+          Contact
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 😎</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                I am a final year student at VIT Bhopal University with a foundation in cybersecurity and software development. 
+                I have hands-on experience gained through academic projects and internships. 
+                Adept at working collaboratively in team environments and showcasing strong problem-solving abilities along with effective time management skills.
+              </span>
+              <span>
+                I have worked on several projects and have a keen interest in software testing and web development.
+                Along with my team I also have participated in hackhathons and capture the flag 
+                tournaments in order to gain experience. Below are some of my projects that I have worked on.
+              </span>
+            </p>
+            <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='./index.html#projects'">
+              Projects
+            </button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">react</li>
+              <li class="about__skill">node</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">vscode</li>
+              <li class="about__skill">linux</li>
+              <li class="about__skill">msoffice</li>
+              <li class="about__skill">sql</li>
+              <li class="about__skill">seo</li>
+              <li class="about__skill">ui-ux</li>
+              <li class="about__skill">java</li>
+              <li class="about__skill">python</li>
+              <li class="about__skill">cpp</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal projects that I created with their details :
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/image.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Biometric-Based Attendance System
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                As the name suggests this project was made to prevent proxy system 
+                and get attendance of students through their fingerprints and face recognition using different 
+                Machine Learning techniques. My role was to secure the database and mantain the back-end for the Web Application.
+                </span>
+                <!-- <br />
+                  <br /> -->
+              </p>
+              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/flamekiller22/Biometric-Attendance-Management-System'">
+                Code Link
+              </button>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/bloodwave.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                BloodWave - Stock Information App
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This web application was made to cope up with the problems 
+                  faced while finding blood incase of emergencies. The application itself
+                  give live updates about where and which bloodbank or NGO has the required type
+                  of blood available and their contact. I designed the database which 
+                  fetched the real time data from an API of a govt. website.
+                </span>
+                <!-- <br />
+                  <br /> -->
+              </p>
+              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/flamekiller22/bloodwave'">
+                Code Link
+              </button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Arduino.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                NFC Based Payment System
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  It was team project made in order to ease the payment system in our institution 
+                  premises as a subsitute of UPI payment system.
+                  Here we used NFC enabled student identity cards in order to pay for various items at different shops in the campus.
+                  I worked on the hardware integration and landing page of the website.
+                </span>
+                <!-- <br />
+                  <br /> -->
+              </p>
+              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/flamekiller22/cyberpe'">
+                Code Link
+              </button>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/eventify.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Online Movie Ticket Booking App
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This website was built using php is a simple online movie ticketing
+                  service. It was built for a client and works as an e-commerce web application
+                  supporting ticket reservation system as per the user requirements.
+                </span>
+                <!-- <br />
+                  <br /> -->
+              </p>
+              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/MrKazuma/Movie_website'">
+                Code Link
+              </button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact 📞</span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.
+        </span>
+      </h2>
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+        <!-- Contact Form -->
+        <form
+          action="https://formspree.io/f/mvgorejb"
+          method="POST"
+          style="flex: 1;"
+        >
+          <div class="contact__form-field">
+            <label for="name" class="contact__form-field-label">Name</label>
+            <input
+              name="name"
+              placeholder="Enter Your Name"
+              type="text"
+              class="contact__form-field-input"
+              required
+            />
+          </div>
+          <div class="contact__form-field">
+            <label for="email" class="contact__form-field-label">Email</label>
+            <input
+              name="email"
+              placeholder="Enter Your Email"
+              type="email"
+              class="contact__form-field-input"
+              required
+            />
+          </div>
+          <div class="contact__form-field">
+            <label for="message" class="contact__form-field-label">Message</label>
+            <textarea
+              name="message"
+              placeholder="Enter Your Message"
+              cols="30"
+              rows="10"
+              class="contact__form-field-input"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="contact__form-submit">Submit</button>
+        </form>
+      
+        <!-- Image Section -->
+        <div style="flex: 1; text-align: center;">
+          <img
+            src="./assets/contact-form-bg-.jpg"
+            alt="Contact Us"
+            style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);"
+          />
+        </div>
+      </div>
+      
+      
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/MrKazuma" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.instagram.com/_kazuma_san" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/sk-touhid-kabir" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
